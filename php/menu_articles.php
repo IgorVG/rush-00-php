@@ -13,7 +13,7 @@ while (($array = mysqli_fetch_assoc($query)) !== NULL)
 	echo "<a href=inventory.php?category=".$array['category'].">";
 	echo "<p>Voir plus de ".$array['category']."</p></a>";
 	echo "<form method='post' action='panier.php?id=";
-	echo $array['id'];
+	echo $array['id_product'];
 	echo "'>";
 	echo "<input type='submit' class='submit' value='+1'>";
 	echo "</form></section>";

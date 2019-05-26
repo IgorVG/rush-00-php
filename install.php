@@ -11,7 +11,7 @@ echo "SUCCESS";
 ?>
 <html>
 <head>
-	<link <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <form action="install.php" method="post">

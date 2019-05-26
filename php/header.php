@@ -31,7 +31,7 @@ else
 <?php
 }
 ?>
-			<li><a href="panier.php">Panier <br>No items</a></li>
+			<li><a href="panier-checkout.php">Panier <br>No items</a></li>
 			</ul>
 		</div>
 		<h1>ONLINE SHOP</h1>
